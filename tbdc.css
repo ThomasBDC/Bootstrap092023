@@ -7,3 +7,16 @@
     color:aqua;
     background-color: black;
 }
+
+h1{
+    color:red;
+    text-decoration: underline;
+}
+
+.navbar-brand:hover {
+    transform: rotate(-5deg) scale(1.1);
+}
+
+.navbar-brand{
+    transition: transform 0.2s ease-in-out;
+}
